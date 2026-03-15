@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>抽取缘分 - 恋爱盲盒</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "PingFang SC", sans-serif;
+        }
+        body {
+            background-color: #f8f9fa;
+            padding: 40px 20px;
+            max-width: 750px;
+            margin: 0 auto;
+        }
+        /* 返回按钮 */
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+            color: #666;
+            font-size: 28px;
+            margin-bottom: 40px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .title {
+            font-size: 44px;
+            font-weight: bold;
+            color: #333;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 26px;
+            color: #888;
+        }
+        .box-row {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+        .box-card {
+            height: 220px;
+            border-radius: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+            text-decoration: none;
+        }
+        .icon {
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+        .box-label {
+            font-size: 32px;
+            font-weight: bold;
+            color: white;
+        }
+        .price {
+            font-size: 26px;
+            color: white;
+            margin-top: 10px;
+            font-weight: bold;
+            opacity: 0.9;
+        }
+        .blue {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .pink {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 返回首页按钮 -->
+        <a href="index.html" class="back-btn">← 返回首页</a>
+
+        <div class="header">
+            <span class="title">✨ 抽取你的缘分</span>
+            <span class="subtitle">选择想抽取的盲盒</span>
+        </div>
+
+        <div class="box-row">
+            <!-- 按钮：抽男生盲盒 -->
+            <a href="这里替换成【男生抽取表单链接】" class="box-card blue" target="_blank">
+                <div class="icon">👦</div>
+                <span class="box-label">抽男生盲盒</span>
+                <span class="price">¥5.00/次</span>
+            </a>
+            <!-- 按钮：抽女生盲盒 -->
+            <a href="这里替换成【女生抽取表单链接】" class="box-card pink" target="_blank">
+                <div class="icon">👧</div>
+                <span class="box-label">抽女生盲盒</span>
+                <span class="price">¥5.00/次</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
