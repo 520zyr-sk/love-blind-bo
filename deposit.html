@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寄存信息 - 恋爱盲盒</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "PingFang SC", sans-serif;
+        }
+        body {
+            background-color: #f8f9fa;
+            padding: 40px 20px;
+            max-width: 750px;
+            margin: 0 auto;
+        }
+        /* 返回按钮 */
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+            color: #666;
+            font-size: 28px;
+            margin-bottom: 40px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .title {
+            font-size: 44px;
+            font-weight: bold;
+            color: #333;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 26px;
+            color: #888;
+        }
+        .box-row {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+        .box-card {
+            height: 220px;
+            background: white;
+            border-radius: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+            text-decoration: none;
+        }
+        .icon {
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+        .box-label {
+            font-size: 32px;
+            font-weight: bold;
+            color: #333;
+        }
+        .price {
+            font-size: 26px;
+            color: #ff6b6b;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .blue-outline {
+            border: 4px solid #667eea;
+        }
+        .pink-outline {
+            border: 4px solid #f5576c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 返回首页按钮 -->
+        <a href="index.html" class="back-btn">← 返回首页</a>
+
+        <div class="header">
+            <span class="title">📝 寄存你的信息</span>
+            <span class="subtitle">选择对应的盒子投放</span>
+        </div>
+
+        <div class="box-row">
+            <!-- 按钮：投男生纸条 -->
+            <a href="这里替换成【男生投放表单链接】" class="box-card blue-outline" target="_blank">
+                <div class="icon">👦</div>
+                <span class="box-label">放入男生盒</span>
+                <span class="price">¥2.00/次</span>
+            </a>
+            <!-- 按钮：投女生纸条 -->
+            <a href="这里替换成【女生投放表单链接】" class="box-card pink-outline" target="_blank">
+                <div class="icon">👧</div>
+                <span class="box-label">放入女生盒</span>
+                <span class="price">¥2.00/次</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
